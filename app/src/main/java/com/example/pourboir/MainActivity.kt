@@ -86,6 +86,7 @@ private fun calculateTip(amount: Double, tipPercent: Double = 15.0): String {
     return NumberFormat.getCurrencyInstance().format(tip)
 }
 
+
 @Preview(showBackground = true)
 @Composable
 fun TipTimePreviw(){
